@@ -45,4 +45,6 @@ console.log(nome2); //Saída Paty
  * OBS São diferentes
  */
 
+//NÃO UTILIZE VAR, SEMPRE UTILIZE LET PARA VARIÁVEIS.
+
 //Não podemos redeclarar variáveis com let.
