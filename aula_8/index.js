@@ -7,8 +7,12 @@ const nome = 'Luíz Otávio';
 const sobrenome = 'Miranda';
 const idade = 30;
 const peso = 84;
-const altura = 1.80;
-let imc = peso / (altura * altura); //peso / (altura * altura)
+const alturaEmMetro = 1.80;
+let imc = peso / (alturaEmMetro * alturaEmMetro); //peso / (altura * altura)
 let anoNascimento = 2022 - idade;
 
-console.log(nome, sobrenome, 'tem', idade, 'anos, pesa', peso, 'kg, tem ', altura, 'de altura e o seu IMC é de ', imc,'.', nome, 'nasceu em ', anoNascimento);
+// 3 formas de imprimir o texto:
+
+console.log(nome, sobrenome, 'tem', idade, 'anos');  
+console.log('Seu peso é ' + '' +  peso + ' kg e tem ' + '' + alturaEmMetro + ' de altura');
+console.log(`O seu imc é de ${imc} nome nasceu em ${anoNascimento}`); //Forma mais sofisticada. Utiliza-se a crase.
