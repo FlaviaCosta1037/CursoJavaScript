@@ -31,7 +31,6 @@ const resultado2 = (resultado * primeiroNumero) + segundoNumero;
 let resultado3 = resultado2 * resultado;
 resultado3 = resultado3 - resultado2;
 
-
 console.log(resultado3);
 
 //String = text e Number = número
@@ -49,4 +48,3 @@ const numero3 = 100;
 console.log(numero + numero2); //Concatenação de numero com string
 console.log(numero + numero3); // Soma de dois números.
 console.log(numero, numero2,numero); //Exbibição das constantes na tela
-
