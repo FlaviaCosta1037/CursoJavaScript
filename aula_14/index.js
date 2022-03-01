@@ -16,4 +16,10 @@ let num4 = 15.4345678
 console.log(num4.toFixed(2)); //Arredondando com duas casa decimais
 console.log(Number.isInteger(num2)); //Função para mostrar se o numero é inteiro. Retornar false or True.
 
+//Confirmando se a conta é verdadeira ou falsa; isNaN
+let temp = num1 * "5";
+console.log(Number.isNaN(temp)); //Resultado False. É uma conta inválida, pois não existe multiplicar strings e numeros.
+
+
+
 
