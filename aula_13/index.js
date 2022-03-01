@@ -26,4 +26,8 @@ console.log(umaString2.slice(-5)); //Função Slice fatia as strings. ex: são 3
 //OUTRO EXEMPLO
 console.log(umaString2.slice(30)) // Mesmo resultado acima. POde usar negativo e positivo.
 
+//Função Split: Divide cada palavra de um array
+
+console.log(umaString2.split(" ")); 
+
 
