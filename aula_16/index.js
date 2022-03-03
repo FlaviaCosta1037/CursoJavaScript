@@ -36,3 +36,16 @@ console.log(alunos); //Retirou Eduardo
 const removidoInicio = alunos.shift(); //Salvando o aluno removido do inicio em uma variavel.
 console.log(removidoInicio); //Luiz
 
+//Deletando um elemento de um array deixando a posição vazia.
+const arrayNome = ['Maria', 'José','João'];
+delete arrayNome[1]; // Posição 1 do array vazia.
+console.log(arrayNome);
+
+//Fatiando um array. Utilizando slice
+const arrayNome2 = ['Maria', 'José','João', 'Luiza', 'Pedro'];
+console.log(arrayNome2.slice(0, 3)); //Cortando Luiza e Pedro. de 0 a 3
+console.log(arrayNome2.slice(0, -2)); //Cortando Luiza e Pedro de trás para frente.
+
+
+
+
