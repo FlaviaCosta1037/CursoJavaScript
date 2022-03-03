@@ -41,7 +41,8 @@ const raiz = function(n){
 }
 console.log(raiz(9));
 
-//Forma sofisticada (retorna o mesmo resultado acima)
+//Forma sofisticada Arrow function é representado pelo sinal => (retorna o mesmo resultado acima)
+//Só pode ser usada para funções anonimas.
 
 const raiz2 = n => n ** 0.5; /*Elimina os parenteses quando só tem um parametro (n), pode eliminar as chaves e o return */
 console.log(raiz2(25));
