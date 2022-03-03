@@ -4,3 +4,4 @@ Alt + ↑ / ↓ Mover linha para cima / baixo
 Shift + Alt + ↓ / ↑ Copiar linha para cima / baixo
 CTRL+L: Selecionar toda linha
 CTRL+SHIFT+K: Apagar linha selecionada
+CTRL + ; - Comentar em massa
